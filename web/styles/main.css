@@ -6,11 +6,11 @@ body {
     box-shadow: -5px 25px 31px black;
     width: 800px;
     background-color: white;
-
+    
 }
 
 header{
-        margin-top: 0px;
+    margin-top: 0px;
     border-bottom: solid black;
     background: linear-gradient(45deg, orange, black);
     
@@ -37,10 +37,64 @@ a:visited {
 }
 
 .links{
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+    width: 180px;
+    height: 600px;
     float: left;
-    width: 160px;
-    height:550px;
-    clear: both;
+}
+nav navigation a.stuff{
+    color: orange;
+}
+
+a.sidenav:link, a.sidenav:visited{
+    display:block;
+    border: solid black;
+    width: 140px;
+    font-weight:bold;
+    color:black;
+    background-color: orange;
+    padding: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+a.stuff{
+    color:orange;
+}
+
+.navigation{
+    list-style-type: none;
+    margin-top: 5px;
+    padding: 0;
+    overflow: hidden;
+    width: 800px;
+    background-color: black;
+
+}
+
+.bar{
+    float: left;
+    
+}
+
+
+
+a.stuff:link, a.stuff:visited{
+    display:block;
+    width: 140px;
+    font-weight:bold;
+    color:white;
+    background-color: black;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+a.stuff:hover, a.stuff:active{
+    background-color: gray;
 }
 
 
